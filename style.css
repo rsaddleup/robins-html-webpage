@@ -56,6 +56,7 @@ footer {
   font-size: 1.5em;
   color: blue;
   text-align: center;
+  margin: 10px;
 }
 .center {
   margin:  auto;
@@ -63,16 +64,17 @@ footer {
 }
 .container {
   display: inline-flex; justify-content: center;
-  width:  100%;
+  width: 100%;
+
   /*height: 55%;*/
   background: #eee;
   margin: 5px;
-  /*background-size: contain;*/
-  /*background-position:  center;*/
-  min-height: 300px;
+  background-size: cover;
+  background-position:  center;
+  min-height: auto;
   margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
   /*border: 2px solid blue;*/
   overflow: visible;
   /*padding-top: 5px;
@@ -82,20 +84,23 @@ footer {
 .block {
 
   background: lightblue;
-  height: 400px;
-  width: 600px;
+  height:95%;
+  width: auto;
+margin-left: 10px;
+margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin: 5px;
   border: 3px solid blue;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #mystory-block {
   background: lightblue;
   font-family:sans-serif;
-  height: 400px;
+  height: auto;
   width: 80%;
   margin: 5px;
-  padding:inherit;
+  padding: inherit;
   border: 3px solid blue;
   }
 a {
@@ -174,12 +179,19 @@ a {
 }
 .profile-pic {
   margin-left: 10px;
-  margin-top: 2px;
+  margin-right: 10px;
+  margin-top: 5px;
   width: 75px;
   height: 75px;
   border-radius: 10%;
   border: 3px solid blue;
   transition: all .1s;
+}
+.goals-text {
+  text-align:left;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0px;
 }
 #mystory-text {
   text-align:left;
@@ -198,11 +210,12 @@ a {
     padding: 0px;
 }
 .profile-pic:hover {
+
    transform: scale(6) rotate(-360deg);
 }
 .profile-pic2:hover {
    transform: scale(6) rotate(360deg);
 }
 .profile-pic3:hover {
-  transform: scale(6) rotate(360deg)
+   transform: scale(6) rotate(360deg)
 }
