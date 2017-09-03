@@ -59,9 +59,11 @@ footer {
   text-align: center;
   margin: 10px;
 }
-.center {
+.mystory-title {
+  font-size: auto;
+  color: orange;
   margin:  auto;
-  text-align: center;
+  text-align: center;/* displays mystory page title*/
 }
 .container {
   display: inline-flex; justify-content: center;
@@ -83,8 +85,8 @@ footer {
   background: lightblue;
   height:95%;
   width: auto;
-margin-left: 5px;
-margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   border: 3px solid blue;
@@ -161,7 +163,7 @@ a {
   background-image:  url('GC4.Mar8.17.jpg');
 
 }
-.header-pic-exp {
+.header-pic-mystory {
 
   background-image: url('GC.P4.2016.jpg');
 
@@ -200,11 +202,11 @@ a {
   margin-right: 5px;
   padding: 0px;
 }
-#pictur-text {
+/*#pictur-text {
   text-align:left;
   margin: 0px;
   padding: 0px;
-}
+}*/
 #pictureboxes {
     text-align: center;
     margin: 0px;
