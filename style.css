@@ -115,7 +115,7 @@ a {
 }
 .header-font1 {
   font-weight: bold;
-  font-size: 1em;
+  font-size: auto;
   /*font-size: 5em;*/
   color: rgb(255,255, 255);(50, 100%, 50%, 0.3);
   text-align: center;
