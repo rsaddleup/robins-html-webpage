@@ -31,9 +31,9 @@ footer {
     color: black; /*turns current page nav link black*/
 }
 .nav .name {
-    display:  block;
+    display:  inline-flex; justify-content: flex-end;
     margin-right:  auto;
-    color: white;
+    color: white;/*displays navigation font color and position*/
 }
 .main-nav {
   width:  auto;
