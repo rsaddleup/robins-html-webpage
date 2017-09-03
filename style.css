@@ -202,16 +202,16 @@ a {
   margin-right: 5px;
   padding: 0px;
 }
-#pictur-text {
+#picture-text {
   text-align:left;
   margin: 0px;
   padding: 0px;
 }
-#pictureboxes {
+/*#pictureboxes {
     text-align: center;
     margin: 0px;
     padding: 0px;
-}
+}*/
 .profile-pic:hover {
 
    transform: scale(9) rotate(360deg);
