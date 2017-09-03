@@ -207,11 +207,11 @@ a {
   margin: 0px;
   padding: 0px;
 }
-/*#pictureboxes {
+#pictureboxes {
     text-align: center;
     margin: 0px;
     padding: 0px;
-}*/
+}
 .profile-pic:hover {
 
    transform: scale(9) rotate(360deg);
