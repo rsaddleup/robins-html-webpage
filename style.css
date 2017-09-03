@@ -36,12 +36,12 @@ footer {
     color: white;/*displays navigation font color and position*/
 }
 .main-nav {
-  width:  auto;
+  width:   inherit;
   background: blue;
   min-height: 3px;
   padding: 2px;
-  position:  relative;
-  text-align: center;
+  /*position:  relative;*/
+  /*text-align: center;*/
 }
 .nav {
   display: flex;
