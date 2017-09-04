@@ -201,6 +201,14 @@ a {
   margin-right: 5px;
   padding: 0px;
 }
+#resume {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
 #mystory-text {
   text-align:left;
   margin-left: 5px;
