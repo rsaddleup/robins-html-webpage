@@ -32,7 +32,7 @@ footer {
 .boldnam {
     color: black; /*turns current page nav link black*/
 }
-.nav .name {
+ .name {
     display: inline-flex; justify-content: flex-end;
     margin-right:  auto;
     color: white;/*displays navigation font color and position*/
@@ -68,7 +68,8 @@ footer {
   text-align: center;/* displays mystory page title*/
 }
 .container {
-  display: inline-flex; justify-content: center;
+  /*display: inline-flex; justify-content: center;*/
+  display: inline-block;
   width: 100%;
   background: #eee;
   margin: 5px;
@@ -224,4 +225,8 @@ a {
 }
 .profile-pic3:hover {
    transform: scale(6) rotate(360deg)
+}
+.contact-text {
+  text-align: center;
+
 }
