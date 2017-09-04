@@ -218,16 +218,9 @@ a {
     padding: 0px;
 }
 .profile-pic:hover {
+  transform: scale(6,6) rotate(360deg);
 
-   transform: scale(9) rotate(360deg);
-}
-.profile-pic2:hover {
-   transform: scale(6) rotate(360deg);
-}
-.profile-pic3:hover {
-   transform: scale(6) rotate(360deg)
 }
 .contact-text {
   text-align: center;
-
 }
