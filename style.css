@@ -39,6 +39,7 @@ footer {
 }
 .main-nav {
   width:   inherit;
+  font-size: .75em;
   background: blue;
   min-height: 3px;
   padding: 2px;
