@@ -10,7 +10,7 @@ body {
 }
 h1 {
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 h2 {
   font-size: 1em;
@@ -33,7 +33,7 @@ footer {
     color: black; /*turns current page nav link black*/
 }
 .nav .name {
-    display:  inline-flex; justify-content: flex-end;
+    display: inline-flex; justify-content: flex-end;
     margin-right:  auto;
     color: white;/*displays navigation font color and position*/
 }
@@ -78,21 +78,22 @@ footer {
   margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
-  padding: 5px 0px 0px 0px;
-  overflow: visible;
+  padding: 0px 0px 0px 0px;
+  overflow:  visible;
 
 }
 .block {
 
   background: lightblue;
-  height:95%;
+  font-family:  sans-serif;
+  height: inherit;
   width: auto;
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   border: 3px solid blue;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 10px;
 }
 #mystory-block {
