@@ -107,7 +107,7 @@ a {
   color:white;
 }
 .nav li {
-  padding: 10px 10px 10px 20px;
+  padding: 5px 5px 5px 5px;
 }
 .nav a{
   transition: all .5s;
