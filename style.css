@@ -107,6 +107,9 @@ footer {
   padding: inherit;
   border: 3px solid blue;
   }
+a.highlight:hover {
+    color: #ff0000;
+  }
 a {
   text-decoration:  underline;
   color:white;
