@@ -43,9 +43,7 @@ footer {
   background: blue;
   min-height: 3px;
   padding: 2px;
-  /*position:  relative;*/
-  /*text-align: center;*/
-}
+  }
 .nav {
   display: flex;
   justify-content:  flex-end;
@@ -69,7 +67,6 @@ footer {
   text-align: center;/* displays mystory page title*/
 }
 .container {
-  /*display: inline-flex; justify-content: center;*/
   display: inline-block;
   width: 100%;
   background: #eee;
@@ -81,7 +78,7 @@ footer {
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px 0px 0px 0px;
-  overflow:  visible;
+  /*overflow:  visible;*/
 
 }
 .block {
@@ -203,6 +200,14 @@ a {
   margin-left: 10px;
   margin-right: 5px;
   padding: 0px;
+}
+.media-pg1 {
+  /*display: inline;*/
+  text-align: center;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 #resume {
   display: block;
