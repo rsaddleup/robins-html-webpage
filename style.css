@@ -78,7 +78,7 @@ footer {
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px 0px 0px 0px;
-  /*overflow:  visible;*/
+
 
 }
 .block {
@@ -190,7 +190,7 @@ a {
   height: 75px;
   border-radius: 10%;
   border: 3px solid blue;
-  transition: all .1s;
+  transition: all 1s;
 }
 .goals-text {
   font-size: 1.5em;
@@ -233,10 +233,37 @@ a {
     margin: 0px;
     padding: 0px;
 }
-.profile-pic:hover {
+/*.profile-pic:hover {
   transform: scale(6,6) rotate(360deg);
 
-}
+}*/
 .contact-text {
   text-align: center;
+}
+/*.changer  {
+top:0px;
+left:0px;
+height:40%;
+width:40%;
+background-image:url(1.jpg);
+background-position:left top fixed;
+background-size: cover;
+position: fixed;
+z-index: -9999999999;
+opacity: 1;
+-webkit-transition:all 0.6s;
+-moz-transition:all 0.6s;
+-ms-transition:all 0.6s;
+-o-transition:all 0.6s;
+transition:all 0.6s; }*/
+
+
+.profile-pic:hover {
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+/*background-image: url(1.jpg) left fixed repeat; */
+background-size: cover;
+position: fixed;
 }
