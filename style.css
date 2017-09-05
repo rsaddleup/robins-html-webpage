@@ -192,7 +192,7 @@ a {
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding: 2px;
 }
 #resume {
   display: block;
