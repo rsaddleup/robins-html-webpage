@@ -222,7 +222,7 @@ a {
 .contact-text {
   text-align: center;
 }
-.profile-pic:hover {
+.profile-pic:fullscreen {
 top: 0px;
 left: 0px;
 height: 98%;
